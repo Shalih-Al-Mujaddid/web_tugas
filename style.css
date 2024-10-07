@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #AD00FF 0%, #430063 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Kanit", sans-serif;
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 50rem;
+    margin-bottom: 10rem;
+    font-family: "Kanit", sans-serif;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #fff;
+    color: #3000b7;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-count {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    text-align: center;
+    background: none;
+    color: #AD00FF;
+    padding: 1rem;
+}
+
+.user-count p {
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.users-avatar {
+    width: 90px;
+    border-radius: 50%;
+    margin-left: -2rem;
+}
+
+.vr-image {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.vr-image img {
+    width: 500px;
+    margin-top: -1.2rem;
+    margin-right: 15rem;
+}
